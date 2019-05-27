@@ -1,3 +1,4 @@
+
 # Web Scraping and Data Analysis 
 ## --- Game of Thrones Ratings and # Votes on IMDB
 
@@ -14,19 +15,6 @@ url = "https://www.imdb.com/title/tt0944947/episodes?season=1"
 response = get(url)
 print(response.text[:500])
 ```
-
-    
-     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     <!DOCTYPE html>
     <html
@@ -125,7 +113,7 @@ int(vote.replace('(', '').replace(')','').replace(',',''))
 
 
 
-    35640
+    35831
 
 
 
@@ -209,210 +197,210 @@ df
   <tbody>
     <tr>
       <th>0</th>
-      <td>35640</td>
+      <td>35831</td>
       <td>9.1</td>
       <td>1</td>
       <td>Winter Is Coming</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>26992</td>
+      <td>27137</td>
       <td>8.8</td>
       <td>1</td>
       <td>The Kingsroad</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>25497</td>
+      <td>25640</td>
       <td>8.7</td>
       <td>1</td>
       <td>Lord Snow</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>24152</td>
+      <td>24289</td>
       <td>8.8</td>
       <td>1</td>
       <td>Cripples, Bastards, and Broken Things</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>25197</td>
+      <td>25337</td>
       <td>9.1</td>
       <td>1</td>
       <td>The Wolf and the Lion</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>24936</td>
+      <td>25064</td>
       <td>9.2</td>
       <td>1</td>
       <td>A Golden Crown</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>25445</td>
+      <td>25574</td>
       <td>9.3</td>
       <td>1</td>
       <td>You Win or You Die</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>23570</td>
+      <td>23693</td>
       <td>9.1</td>
       <td>1</td>
       <td>The Pointy End</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>33421</td>
+      <td>33580</td>
       <td>9.6</td>
       <td>1</td>
       <td>Baelor</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>29324</td>
+      <td>29462</td>
       <td>9.5</td>
       <td>1</td>
       <td>Fire and Blood</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>22912</td>
+      <td>23026</td>
       <td>8.9</td>
       <td>2</td>
       <td>The North Remembers</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>21630</td>
+      <td>21740</td>
       <td>8.6</td>
       <td>2</td>
       <td>The Night Lands</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>21383</td>
+      <td>21490</td>
       <td>8.9</td>
       <td>2</td>
       <td>What Is Dead May Never Die</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>20648</td>
+      <td>20758</td>
       <td>8.9</td>
       <td>2</td>
       <td>Garden of Bones</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>20815</td>
+      <td>20925</td>
       <td>8.9</td>
       <td>2</td>
       <td>The Ghost of Harrenhal</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>21809</td>
+      <td>21923</td>
       <td>9.1</td>
       <td>2</td>
       <td>The Old Gods and the New</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>21227</td>
+      <td>21340</td>
       <td>9.0</td>
       <td>2</td>
       <td>A Man Without Honor</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>20956</td>
+      <td>21073</td>
       <td>8.9</td>
       <td>2</td>
       <td>The Prince of Winterfell</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>36897</td>
+      <td>37058</td>
       <td>9.7</td>
       <td>2</td>
       <td>Blackwater</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>26057</td>
+      <td>26177</td>
       <td>9.5</td>
       <td>2</td>
       <td>Valar Morghulis</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>22995</td>
+      <td>23105</td>
       <td>8.9</td>
       <td>3</td>
       <td>Valar Dohaeris</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>20717</td>
+      <td>20817</td>
       <td>8.7</td>
       <td>3</td>
       <td>Dark Wings, Dark Words</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>20897</td>
+      <td>21006</td>
       <td>8.9</td>
       <td>3</td>
       <td>Walk of Punishment</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>28738</td>
+      <td>28861</td>
       <td>9.6</td>
       <td>3</td>
       <td>And Now His Watch Is Ended</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>21290</td>
+      <td>21391</td>
       <td>9.1</td>
       <td>3</td>
       <td>Kissed by Fire</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>21157</td>
+      <td>21260</td>
       <td>8.9</td>
       <td>3</td>
       <td>The Climb</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>20406</td>
+      <td>20515</td>
       <td>8.8</td>
       <td>3</td>
       <td>The Bear and the Maiden Fair</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>20999</td>
+      <td>21098</td>
       <td>9.1</td>
       <td>3</td>
       <td>Second Sons</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>81405</td>
+      <td>81647</td>
       <td>9.9</td>
       <td>3</td>
       <td>The Rains of Castamere</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>23833</td>
+      <td>23950</td>
       <td>9.2</td>
       <td>3</td>
       <td>Mhysa</td>
@@ -426,210 +414,210 @@ df
     </tr>
     <tr>
       <th>43</th>
-      <td>21102</td>
+      <td>21204</td>
       <td>8.8</td>
       <td>5</td>
       <td>Sons of the Harpy</td>
     </tr>
     <tr>
       <th>44</th>
-      <td>21358</td>
+      <td>21459</td>
       <td>8.7</td>
       <td>5</td>
       <td>Kill the Boy</td>
     </tr>
     <tr>
       <th>45</th>
-      <td>24316</td>
+      <td>24422</td>
       <td>8.1</td>
       <td>5</td>
       <td>Unbowed, Unbent, Unbroken</td>
     </tr>
     <tr>
       <th>46</th>
-      <td>23486</td>
+      <td>23588</td>
       <td>9.1</td>
       <td>5</td>
       <td>The Gift</td>
     </tr>
     <tr>
       <th>47</th>
-      <td>82508</td>
+      <td>82752</td>
       <td>9.9</td>
       <td>5</td>
       <td>Hardhome</td>
     </tr>
     <tr>
       <th>48</th>
-      <td>35838</td>
+      <td>35960</td>
       <td>9.5</td>
       <td>5</td>
       <td>The Dance of Dragons</td>
     </tr>
     <tr>
       <th>49</th>
-      <td>34785</td>
+      <td>34902</td>
       <td>9.1</td>
       <td>5</td>
       <td>Mother's Mercy</td>
     </tr>
     <tr>
       <th>50</th>
-      <td>33818</td>
+      <td>33941</td>
       <td>8.6</td>
       <td>6</td>
       <td>The Red Woman</td>
     </tr>
     <tr>
       <th>51</th>
-      <td>40109</td>
+      <td>40223</td>
       <td>9.4</td>
       <td>6</td>
       <td>Home</td>
     </tr>
     <tr>
       <th>52</th>
-      <td>28113</td>
+      <td>28226</td>
       <td>8.8</td>
       <td>6</td>
       <td>Oathbreaker</td>
     </tr>
     <tr>
       <th>53</th>
-      <td>30293</td>
+      <td>30404</td>
       <td>9.2</td>
       <td>6</td>
       <td>Book of the Stranger</td>
     </tr>
     <tr>
       <th>54</th>
-      <td>60382</td>
+      <td>60568</td>
       <td>9.7</td>
       <td>6</td>
       <td>The Door</td>
     </tr>
     <tr>
       <th>55</th>
-      <td>27901</td>
+      <td>28012</td>
       <td>8.5</td>
       <td>6</td>
       <td>Blood of My Blood</td>
     </tr>
     <tr>
       <th>56</th>
-      <td>27049</td>
+      <td>27166</td>
       <td>8.7</td>
       <td>6</td>
       <td>The Broken Man</td>
     </tr>
     <tr>
       <th>57</th>
-      <td>31000</td>
+      <td>31116</td>
       <td>8.5</td>
       <td>6</td>
       <td>No One</td>
     </tr>
     <tr>
       <th>58</th>
-      <td>177994</td>
+      <td>178367</td>
       <td>9.9</td>
       <td>6</td>
       <td>Battle of the Bastards</td>
     </tr>
     <tr>
       <th>59</th>
-      <td>122915</td>
+      <td>123203</td>
       <td>9.9</td>
       <td>6</td>
       <td>The Winds of Winter</td>
     </tr>
     <tr>
       <th>60</th>
-      <td>43687</td>
+      <td>43845</td>
       <td>8.7</td>
       <td>7</td>
       <td>Dragonstone</td>
     </tr>
     <tr>
       <th>61</th>
-      <td>37421</td>
+      <td>37575</td>
       <td>9.0</td>
       <td>7</td>
       <td>Stormborn</td>
     </tr>
     <tr>
       <th>62</th>
-      <td>39055</td>
+      <td>39210</td>
       <td>9.3</td>
       <td>7</td>
       <td>The Queen's Justice</td>
     </tr>
     <tr>
       <th>63</th>
-      <td>75147</td>
+      <td>75352</td>
       <td>9.8</td>
       <td>7</td>
       <td>The Spoils of War</td>
     </tr>
     <tr>
       <th>64</th>
-      <td>37105</td>
+      <td>37266</td>
       <td>8.9</td>
       <td>7</td>
       <td>Eastwatch</td>
     </tr>
     <tr>
       <th>65</th>
-      <td>54570</td>
+      <td>54785</td>
       <td>9.1</td>
       <td>7</td>
       <td>Beyond the Wall</td>
     </tr>
     <tr>
       <th>66</th>
-      <td>54020</td>
+      <td>54237</td>
       <td>9.5</td>
       <td>7</td>
       <td>The Dragon and the Wolf</td>
     </tr>
     <tr>
       <th>67</th>
-      <td>110034</td>
+      <td>111125</td>
       <td>7.7</td>
       <td>8</td>
       <td>Winterfell</td>
     </tr>
     <tr>
       <th>68</th>
-      <td>107667</td>
+      <td>108840</td>
       <td>8.0</td>
       <td>8</td>
       <td>A Knight of the Seven Kingdoms</td>
     </tr>
     <tr>
       <th>69</th>
-      <td>185809</td>
+      <td>187132</td>
       <td>7.6</td>
       <td>8</td>
       <td>The Long Night</td>
     </tr>
     <tr>
       <th>70</th>
-      <td>139226</td>
+      <td>140531</td>
       <td>5.6</td>
       <td>8</td>
       <td>The Last of the Starks</td>
     </tr>
     <tr>
       <th>71</th>
-      <td>161760</td>
+      <td>163377</td>
       <td>6.2</td>
       <td>8</td>
       <td>The Bells</td>
     </tr>
     <tr>
       <th>72</th>
-      <td>190229</td>
+      <td>193515</td>
       <td>4.3</td>
       <td>8</td>
       <td>The Iron Throne</td>
@@ -647,13 +635,15 @@ df
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
+%matplotlib inline
+%config InlineBackend.figure_format = 'svg'
 num_ep = [i+1 for i in range(df.shape[0])]
 fig, ax1 = plt.subplots()
 
 color = 'tab:red'
 ax1.set_xlabel('Episodes (Season 1 -> 8)', fontsize = 18)
 ax1.set_ylabel('rating', color=color, fontsize=18)
-plt.xticks(num_ep, titles, rotation=90, fontsize=12)
+plt.xticks(num_ep, titles, rotation=90, fontsize=10)
 ax1.scatter(num_ep, ratings, color=color)
 ax1.tick_params(axis='y', labelcolor=color)
 
@@ -665,13 +655,13 @@ ax2.scatter(num_ep, votes, color=color)
 ax2.tick_params(axis='y', labelcolor=color)
 
 #fig.tight_layout()  # otherwise the right y-label is slightly clipped
-fig.set_size_inches(18.5, 6)
+fig.set_size_inches(13, 5)
 plt.title('Ratings and # Votes of Game of Throne Episodes on IMDB', fontsize=20)
 plt.show()
 ```
 
 
-![png](output_22_0.png)
+![svg](output_22_0.svg)
 
 
 #### Comments of the graph:
