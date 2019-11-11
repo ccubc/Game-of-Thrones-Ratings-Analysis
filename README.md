@@ -1,6 +1,8 @@
+![svg](output_22_0.svg)
 
 # Web Scraping and Data Analysis 
 ## --- Game of Thrones Ratings and # Votes on IMDB
+
 
 
 * Reference: https://www.dataquest.io/blog/web-scraping-beautifulsoup/
