@@ -672,7 +672,7 @@ plt.show()
 * Blue dots stand for number of votes for each episode --- Season 8 has attracted highest number of voters. 
 * One can not make a simple conclusion that the more the voters, the lower the rating, because in earlier seasons the episodes with most voters are also the ones with highest ratings (e.g., the Rains of Castamere, Hardhome, Battle of the Bastards, the Winds of Winter)
 
-
+#### And now my watch has ended.
 ```python
 
 ```
